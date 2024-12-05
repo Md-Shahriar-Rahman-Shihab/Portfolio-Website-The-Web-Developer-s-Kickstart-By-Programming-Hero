@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-black">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zahid Hossain - Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FFA500",
+              dark: "#111111",
+              "dark-card": "#1A1A1A",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-black text-white min-h-screen px-20 m-0 top-0 left-0">
+    <!-- Navigation -->
+    <nav class="py-4 px-6 mt-8">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="text-xl font-bold">LOGO</div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#" class="text-gray-300 hover:text-white">Home</a>
+          <a href="#" class="text-gray-300 hover:text-white">About Me</a>
+          <a href="#" class="text-gray-300 hover:text-white">Projects</a>
+          <a href="#" class="text-gray-300 hover:text-white">Testimonials</a>
+          <a
+            href="#"
+            class="bg-primary text-black px-5 py-2 rounded-full hover:bg-primary/90"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="border border-[#9ca3af3f] w-full my-10"></div>
+    <!-- Hero Section -->
+    <section class="py-16 px-6">
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="flex flex-col md:flex-row items-center justify-between gap-12"
+        >
+          <div class="flex-1">
+            <p class="text-gray-400 mb-2">Web Developer</p>
+            <h1 class="text-5xl font-bold mb-4">
+              HI! THIS IS<br /><span class="text-primary">ZAHID HOSSAIN</span>
+            </h1>
+            <p class="text-gray-400 mb-8 max-w-xl">
+              As a web developer with four years of experience in creating
+              visually appealing and user-friendly websites. My expertise
+              includes responsive design, UX/UI principles, and modern web
+              technologies.
+            </p>
+            <div class="flex items-center gap-6">
+              <button
+                class="bg-primary text-black px-6 py-3 rounded-full hover:bg-primary/90"
+              >
+                Let's Connect
+              </button>
+              <button class="text-white flex items-center gap-2">
+                View Portfolio
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="flex-1 flex justify-end">
+            <img
+              src="Web Designs/Profile combined.png"
+              alt="Zahid Hossain"
+              class="w-full"
+            />
+            <!-- <img
+              src="Profile.png"
+              alt="Zahid Hossain"
+              class="w-full max-w-md rounded-lg"
+            /> -->
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specialities Section -->
+    <section class="py-16 px-6">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-gray-400 mb-2 text-center w-4/5 mx-auto">
+          SPECIALTIES
+        </p>
+        <h2 class="text-3xl font-bold mb-2 text-center">MY SPECIALITIES</h2>
+        <p class="text-gray-400 mb-12 text-center w-4/5 mx-auto">
+          As a web designer with four years of experience, I specialize in
+          creating visually appealing <br> and user-friendly websites. My expertise
+          includes responsive design.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Front End Development -->
+          <div
+            class="bg-dark-card p-6 rounded-lg hover:bg-dark-card/80 transition text-center"
+          >
+            <div
+              class="w-12 h-12  rounded-lg flex items-center justify-center mb-4 mx-auto"
+            >
+              <!-- <svg
+                class="w-6 h-6 text-blue-500"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> -->
+            <img src="icons/front-end.png" alt="">
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Front-End Development</h3>
+            <p class="text-gray-400 text-sm">
+              Expert in creating visually appealing and responsive front-end
+              solutions.
+            </p>
+          </div>
+
+          <!-- Back End Development -->
+          <div
+            class="bg-dark-card p-6 rounded-lg hover:bg-dark-card/80 transition text-center"
+          >
+            <div
+              class="w-12 h-12  rounded-lg flex items-center justify-center mb-4 mx-auto"
+            >
+              <!-- <svg
+                class="w-6 h-6 text-purple-500"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> -->
+            <img src="icons/back-end.png" alt="">
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Back-End Development</h3>
+            <p class="text-gray-400 text-sm">
+              Building robust and scalable server-side applications.
+            </p>
+          </div>
+
+          <!-- Full Stack Development -->
+          <div
+            class="bg-dark-card p-6 rounded-lg hover:bg-dark-card/80 transition text-center"
+          >
+            <div
+              class="w-12 h-12  rounded-lg flex items-center justify-center mb-4 mx-auto"
+            >
+              <!-- <svg
+                class="w-6 h-6 text-pink-500"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> -->
+            <img src="icons/full-stack.png" alt="">
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Full Stack Development</h3>
+            <p class="text-gray-400 text-sm">
+              End-to-end development with modern technologies.
+            </p>
+          </div>
+
+          <!-- Web Application Security -->
+          <div
+            class="bg-dark-card p-6 rounded-lg hover:bg-dark-card/80 transition text-center"
+          >
+            <div
+              class="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center mb-4 mx-auto"
+            >
+              <!-- <svg
+                class="w-6 h-6 text-cyan-500"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M12 15v2m0 0v2m0-2h2m-2 0H9m3-12V3m0 0v2m0-2h2m-2 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> -->
+            
+            <img src="icons/Web Security.png" alt=""></div>
+            <h3 class="text-lg font-semibold mb-2">Web Application Security</h3>
+            <p class="text-gray-400 text-sm">
+              Implementing robust security measures for web applications.
+            </p>
+          </div>
+
+          <!-- E-commerce Development -->
+          <div
+            class="bg-dark-card p-6 rounded-lg hover:bg-dark-card/80 transition text-center"
+          >
+            <div
+              class="w-12 h-12  rounded-lg flex items-center justify-center mb-4 mx-auto"
+            >
+              <!-- <svg
+                class="w-6 h-6 text-green-500"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> -->
+            <img src="icons/E-commerce app.png" alt="">
+            </div>
+            <h3 class="text-lg font-semibold mb-2">E-commerce Development</h3>
+            <p class="text-gray-400 text-sm">
+              Building secure and scalable online stores.
+            </p>
+          </div>
+
+          <!-- Cloud Based Development -->
+          <div
+            class="bg-dark-card p-6 rounded-lg hover:bg-dark-card/80 transition text-center"
+          >
+            <div
+              class="w-12 h-12  rounded-lg flex items-center justify-center mb-4 mx-auto"
+            >
+              <!-- <svg
+                class="w-6 h-6 text-blue-500"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> -->
+            <img src="icons/Cloud Based Dev.png" alt="">
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Cloud Based Development</h3>
+            <p class="text-gray-400 text-sm">
+              Implementing and managing cloud infrastructure.
+            </p>
+          </div>
+
+          <!-- Progressive Web Apps -->
+          <div
+            class="bg-dark-card p-6 rounded-lg hover:bg-dark-card/80 transition text-center"
+          >
+            <div
+              class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 mx-auto"
+            >
+              <!-- <svg
+                class="w-6 h-6 text-orange-500"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> -->
+            <img src="icons/Progressive Web apps.png" alt="">
+            </div>
+            <h3 class="text-lg font-semibold mb-2">Progressive Web Apps</h3>
+            <p class="text-gray-400 text-sm">
+              Creating modern progressive web applications.
+            </p>
+          </div>
+
+          <!-- AI Powered Development -->
+          <div
+            class="bg-dark-card p-6 rounded-lg hover:bg-dark-card/80 transition text-center"
+          >
+            <div
+              class="w-12 h-12  rounded-lg flex items-center justify-center mb-4 mx-auto"
+            >
+              <!-- <svg class="w-6 h-6 text-red-500" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> -->
+            
+            <img src="icons/Ai-Powered Dev.png" alt="">
+            </div>
+            <h3 class="text-lg font-semibold mb-2">AI Powered Development</h3>
+            <p class="text-gray-400 text-sm">
+              Integrating AI solutions into web applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Works Section -->
+    <section class="py-16 px-6">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-gray-400 mb-2 text-center w-4/5 mx-auto">
+          RECENT WORKS
+        </p>
+        <h2 class="text-3xl font-bold mb-2 text-center">MY RECENT WORKS</h2>
+        <p class="text-gray-400 mb-12 text-center w-4/5 mx-auto">
+            As a web designer with four years of experience, I specialize in creating <br> visually appealing and user-friendly websites. My expertise includes <br> responsive design.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-dark-card aspect-video rounded-lg">
+            <img src="Web Designs/6.png" alt="">
+          </div>
+          <div class="bg-dark-card aspect-video rounded-lg">
+            <img src="Web Designs/1.png" alt="">
+          </div>
+          <div class="bg-dark-card aspect-video rounded-lg">
+            <img src="Web Designs/2.png" alt="">
+          </div>
+          <div class="bg-dark-card aspect-video rounded-lg">
+            <img src="Web Designs/3.png" alt="">
+          </div>
+          <div class="bg-dark-card aspect-video rounded-lg">
+            <img src="Web Designs/4.png" alt="">
+          </div>
+          <div class="bg-dark-card aspect-video rounded-lg">
+            <img src="Web Designs/5.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Other Services Section -->
+    <section class="py-16 px-6">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-gray-400 mb-2 text-center w-4/5 mx-auto">
+          SERVICES
+        </p>
+        <h2 class="text-3xl font-bold mb-2 text-center">MY OTHER SERVICES</h2>
+        <p class="text-gray-400 mb-12 w-4/5 mx-auto text-center">
+            As a web designer with four years of experience, I specialize in creating visually appealing <br> and user-friendly websites. My expertise includes responsive design.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-dark-card p-6 rounded-lg text-center">
+            <h3 class="font-semibold mb-2">Website Development</h3>
+            <p class="text-gray-400 text-sm">
+              Expert in creating visually appealing and responsive websites.
+            </p>
+          </div>
+          <div class="bg-dark-card p-6 rounded-lg text-center">
+            <h3 class="font-semibold mb-2">E-Commerce Development</h3>
+            <p class="text-gray-400 text-sm">
+              Building secure and scalable online stores.
+            </p>
+          </div>
+          <div class="bg-dark-card p-6 rounded-lg text-center">
+            <h3 class="font-semibold mb-2">Web App Development</h3>
+            <p class="text-gray-400 text-sm">
+              Creating modern web applications.
+            </p>
+          </div>
+          <div class="bg-dark-card p-6 rounded-lg text-center">
+            <h3 class="font-semibold mb-2">API Dev. & Integration</h3>
+            <p class="text-gray-400 text-sm">Building and integrating APIs.</p>
+          </div>
+          <div class="bg-dark-card p-6 rounded-lg text-center">
+            <h3 class="font-semibold mb-2">Cloud Based Solutions</h3>
+            <p class="text-gray-400 text-sm">
+              Cloud infrastructure and services.
+            </p>
+          </div>
+          <div class="bg-dark-card p-6 rounded-lg text-center">
+            <h3 class="font-semibold mb-2">Web Perform. Optimization</h3>
+            <p class="text-gray-400 text-sm">Optimizing web performance.</p>
+          </div>
+          <div class="bg-dark-card p-6 rounded-lg text-center">
+            <h3 class="font-semibold mb-2">(SEO) Services</h3>
+            <p class="text-gray-400 text-sm"> Search engine optimization services.</p>
+          </div>
+          <div class="bg-dark-card p-6 rounded-lg text-center">
+            <h3 class="font-semibold mb-2">Website Maint. & Support</h3>
+            <p class="text-gray-400 text-sm">
+              Ongoing maintenance and support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-6">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-gray-400 mb-2 mx-auto">
+          FAQ'S
+        </p>
+        <h2 class="text-3xl font-bold mb-12">FREQUENTLY ASKED QUESTIONS</h2>
+        <div class="border border-[#9ca3af3f] w-full my-0"></div>
+        <div class="collapse collapse-arrow border-b border-gray-500 py-5">
+          <input type="radio" name="my-accordion-2" checked="checked" />
+          <div class="collapse-title text-xl font-medium uppercase">
+            What areas of web development do you focus on?
+          </div>
+          <div class="collapse-content">
+            <p>I specialize in web development, creating websites that deliver unique user experiences.</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow  border-b border-gray-500 py-5">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium uppercase">
+            How can I schedule a web development consultation with you?
+          </div>
+          <div class="collapse-content">
+            <p>I specialize in web development, creating websites that deliver unique user experiences.</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border-b border-gray-500 py-5">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium uppercase">
+            Can I choose a specific platform for my website?
+          </div>
+          <div class="collapse-content">
+            <p>I specialize in web development, creating websites that deliver unique user experiences.</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border-b border-gray-500 py-5">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium uppercase">
+            What tools and technologies do you use for web development?
+          </div>
+          <div class="collapse-content">
+            <p>I specialize in web development, creating websites that deliver unique user experiences.</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow py-5">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium uppercase">
+            Can I choose a specific platform for my website?
+          </div>
+          <div class="collapse-content">
+            <p>I specialize in web development, creating websites that deliver unique user experiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .collapse {
+        border-radius: 0;
+      }
+    </style>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-zinc-800">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+          <div>
+            <h4 class="font-bold mb-4 opacity-50">SOLUTIONS</h4>
+            <ul class="space-y-2 text-gray-400 text-sm w-20">
+              <li class="border-b border-[#9ca3af3f]">GLOWPIXL</li>
+              <li class="border-b border-[#9ca3af3f]">FLUXIFY</li>
+              <li class="border-b border-[#9ca3af3f]">FABLE'S</li>
+              <li class="border-b border-[#9ca3af3f]">POWERCORE</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-4 opacity-50">CUSTOMERS</h4>
+            <ul class="space-y-2 text-gray-400 text-sm w-20">
+              <li class="border-b border-[#9ca3af3f]">GLOWPIXL</li>
+              <li class="border-b border-[#9ca3af3f]">FLUXIFY</li>
+              <li class="border-b border-[#9ca3af3f]">FABLE'S</li>
+              <li class="border-b border-[#9ca3af3f]">POWERCORE</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-4 opacity-50">PARTNERS</h4>
+            <ul class="space-y-2 text-gray-400 text-sm w-20">
+              <li class="border-b border-[#9ca3af3f]">GLOWPIXL</li>
+              <li class="border-b border-[#9ca3af3f]">FLUXIFY</li>
+              <li class="border-b border-[#9ca3af3f]">FABLE'S</li>
+              <li class="border-b border-[#9ca3af3f]">POWERCORE</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-4 opacity-50">STAKEHOLDERS</h4>
+            <ul class="space-y-2 text-gray-400 text-sm w-20">
+              <li class="border-b border-[#9ca3af3f]">GLOWPIXL</li>
+              <li class="border-b border-[#9ca3af3f]">FLUXIFY</li>
+              <li class="border-b border-[#9ca3af3f]">FABLE'S</li>
+              <li class="border-b border-[#9ca3af3f]">POWERCORE</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-4 opacity-50">OFFERINGS</h4>
+            <ul class="space-y-2 text-gray-400 text-sm w-20">
+              <li class="border-b border-[#9ca3af3f]">VISION</li>
+              <li class="border-b border-[#9ca3af3f]">GATHERINGS</li>
+              <li class="border-b border-[#9ca3af3f]">BIZSPIRE</li>
+            </ul>
+          </div>
+        </div>
+        <div class="border border-[#9ca3af3f] w-full my-10"></div>
+        <div class="mt-12 text-center text-gray-400 text-sm flex justify-between">
+          <p>Terms & Conditions   |   Privacy Policy</p>
+          <p>© 2024 All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
